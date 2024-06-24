@@ -54,13 +54,13 @@
                     <label class="form-label" for="form3Example1">nombre</label>
                   </div>
                 </div>
-                <!-- <div class="col-md-6 mb-4">
+               <div class="col-md-6 mb-4">
                   <div data-mdb-input-init class="form-outline">
                     <input type="text" id="form3Example2" class="form-control" />
-                    <label class="form-label" for="form3Example2">Last name</label>
+                    <label class="form-label" for="form3Example2">apellido</label>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
               <!-- Email input -->
               <div data-mdb-input-init class="form-outline mb-4">
@@ -85,7 +85,7 @@
                 Sign up
               </button>
 
-              <label class="form-check-label text-center" for="form2Example33">
+              <label class="form-check-label text-center" form="form2Example33">
                    tienes cuentas? <a href="{{route('login')}}">Iniciar Sesion</a>
                 </label>
 
@@ -98,6 +98,7 @@
     </div>
   </div>
 </section>
+
 <!-- Section: Design Block -->
         <!-- Bootstrap JavaScript Libraries -->
         <script
